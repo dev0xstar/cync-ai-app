@@ -9129,7 +9129,7 @@ const Ao = () => {
                           c.jsx("h4", { children: "Node Pool" }),
                           c.jsx("p", {
                             children:
-                              "Stake CAI, Earn Node Rewards & help power the HATOM AI",
+                              "Stake CAI, Earn Node Rewards & help power the CYNC AI",
                           }),
                           c.jsxs("div", {
                             children: [
