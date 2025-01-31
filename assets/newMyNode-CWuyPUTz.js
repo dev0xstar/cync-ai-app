@@ -3894,7 +3894,7 @@ const ut = (e) =>
                     c.jsx(ut, {}),
                     c.jsx("span", {
                       className: "stake-token__name",
-                      children: "CAI",
+                      children: "CYNC",
                     }),
                   ],
                 }),
@@ -3917,7 +3917,7 @@ const ut = (e) =>
                       " ",
                       n ? (t ? ne(vt($e(t.balanceOf))) : "0") : "--",
                       " ",
-                      "CAI",
+                      "CYNC",
                     ],
                   }),
                 ],
@@ -3958,7 +3958,7 @@ const ut = (e) =>
                 children: [
                   "Are you sure you want to stake ",
                   c.jsx(Ye, { children: s || "0" }),
-                  " CAI?",
+                  " CYNC?",
                 ],
               }),
             }),
@@ -3988,7 +3988,7 @@ const ut = (e) =>
                     children: [
                       "You have successfully staked ",
                       c.jsx(Ye, { children: s || "0" }),
-                      " CAI.",
+                      " CYNC.",
                     ],
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
@@ -8647,7 +8647,7 @@ const ko = (e) => {
                       : j.toString()) || "0"
                   ),
                 }),
-                " CAI?",
+                " CYNC?",
               ],
             }),
           }),
@@ -8685,7 +8685,7 @@ const ko = (e) => {
                       ),
                     }),
                     " ",
-                    "CAI.",
+                    "CYNC.",
                   ],
                 }),
                 error: "Your transaction was unsuccessful. Please try again.",
@@ -8869,7 +8869,7 @@ const Ao = () => {
                 children: [
                   "Are you sure you want to unstake ",
                   c.jsx(Ye, { children: ne(R) }),
-                  " CAI? Please note that your unstaked token will be locked for 60 days before being able to be withdrawn.",
+                  " CYNC? Please note that your unstaked token will be locked for 60 days before being able to be withdrawn.",
                 ],
               }),
             }),
@@ -8900,7 +8900,7 @@ const Ao = () => {
                       "You have successfully unstaked",
                       " ",
                       c.jsx(Ye, { children: ne($e(C.current)) }),
-                      " CAI. Your token will be locked for 60 days.",
+                      " CYNC. Your token will be locked for 60 days.",
                     ],
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
@@ -8922,7 +8922,7 @@ const Ao = () => {
             content: c.jsx(Ce, {
               children: c.jsx(ot, {
                 noMargin: !0,
-                children: "Are you sure you want to claim all CAI?",
+                children: "Are you sure you want to claim all CYNC?",
               }),
             }),
             actions: c.jsxs(bt, {
@@ -8948,7 +8948,7 @@ const Ao = () => {
                 children: {
                   loading: null,
                   success: c.jsx(c.Fragment, {
-                    children: "You have successfully claimed all CAI.",
+                    children: "You have successfully claimed all CYNC.",
                   }),
                   error: "Your transaction was unsuccessful. Please try again.",
                 }[l],
@@ -9036,7 +9036,7 @@ const Ao = () => {
       children: [
         c.jsx("div", {
           children: c.jsx(vr, {
-            text: "By locking CAI tokens in the pool, you are eligible to receive a share of the Node revenue as yield. Please note that unlocking CAI tokens is subject to a 60-day cooldown period.",
+            text: "By locking CYNC tokens in the pool, you are eligible to receive a share of the Node revenue as yield. Please note that unlocking CYNC tokens is subject to a 60-day cooldown period.",
           }),
         }),
         c.jsxs("div", {
@@ -9129,7 +9129,7 @@ const Ao = () => {
                           c.jsx("h4", { children: "Node Pool" }),
                           c.jsx("p", {
                             children:
-                              "Stake CAI, Earn Node Rewards & help power the CYNC AI",
+                              "Stake CYNC, Earn Node Rewards & help power the CYNC AI",
                           }),
                           c.jsxs("div", {
                             children: [
@@ -9183,7 +9183,7 @@ const Ao = () => {
                               c.jsx("h4", { children: "Any Amount" }),
                               c.jsx("p", {
                                 children:
-                                  "Join the Node Pool with any amount of CAI",
+                                  "Join the Node Pool with any amount of CYNC",
                               }),
                             ],
                           }),
@@ -9219,7 +9219,7 @@ const Ao = () => {
                               }),
                               c.jsx("p", {
                                 children:
-                                  "Nodes earn CAI yield, grow your CAI portfolio even while you sleep",
+                                  "Nodes earn CYNC yield, grow your CYNC portfolio even while you sleep",
                               }),
                             ],
                           }),
